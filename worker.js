@@ -22,7 +22,7 @@ your-access-pwd
 
 */
 
-addEventListener('fetch', event => {
+addEventListener('fetch'， event => {
 	event.respondWith(handleRequest(event.request))
 })
 
@@ -332,5 +332,5 @@ function createLandingPage() {
 // Verify the password function
 function verifyPassword(savedPassword) {
 	// Replace this logic with your actual password verification
-	return savedPassword === "your-access-pwd";
+	return savedPassword === "jxaa117412";
 }
